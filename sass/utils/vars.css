@@ -1,0 +1,35 @@
+:root {
+  --brand-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #212121;
+  --grey-color: #757575;
+  --link-color: #afb1b8;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: "Roboto", "Rakeway", sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  justify-content: center;
+}
+
+.unstyled-list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}/*# sourceMappingURL=vars.css.map */
